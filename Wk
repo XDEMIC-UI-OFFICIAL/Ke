@@ -2,7 +2,7 @@
 --  LOAD THE XDEMIC UI LIBRARY
 -- ═══════════════════════════════════════════════════════════
 
-local Library = loadstring(game:HttpGet("https://bytebin.lucko.me/LrxsCtpzPg"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/XDEMIC-UI-OFFICIAL/Ke/refs/heads/main/Sj"))()
 
 if not Library then
     Library = _G.Library or _G.XDEMIC or _G.XDEMIC_UI or _G.AXZEN or _G.AXZEN_UI
@@ -334,7 +334,7 @@ end)
 PlaysTb:AddButton("🚀 Launch Spammer (Optional)", function()
     ButtonPSound()
     Library:Notify("Spammer", "Loading XDEMIC Spammer...", 2)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XDEMIC-UI-OFFICIAL/Ke/refs/heads/main/Sj"))()
+    loadstring(game:HttpGet("https://bytebin.lucko.me/LrxsCtpzPg"))()
 end)
 
 -- ─── SONGS TAB ──────────────────────────────────────────
