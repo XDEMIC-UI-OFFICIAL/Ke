@@ -636,7 +636,7 @@ end
 --===[[ Rayfield WindowCreation ]]===--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/XDEMIC-UI-OFFICIAL/Lib-ui-test/refs/heads/main/Hiu"))()
 
-
+Bubble.Image = "rbxassetid://79370133924174"
 
 local Window = Rayfield:CreateWindow({
    Name = "🎵 XDEMIC Music Hub",
